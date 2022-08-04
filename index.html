@@ -1,0 +1,424 @@
+<!--PORTAFOLIO SERGIO LÓPEZ ÁLVAREZ-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sergio López Álvarez">
+    <meta name="keywords"
+        content="web, developer, desarrollador, programador, html, css, javascript, .net, c#, nodejs, java, Gijon, Asturias">
+    <meta name="description"
+        content="Portafolio de Sergio López Álvarez - Web Developer / Desarrollador Web en Gijón (Asturias)">
+
+    <title>Sergio López Álvarez - Portafolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/eba2645534.js" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+    
+
+</head>
+
+<body>
+    <div class="header">
+
+        <!--HAMBURGUESA (EN DESARROLLO)-->
+        <nav role="navigation">
+            <div id="menuResponsive">
+                <input type="checkbox" />
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+
+                <ul id="menu">
+                    <a href="https://lopezseloal.github.io">
+                        <li>Menú</li>
+                    </a>
+                    <a href="#proyectos-id">
+                        <li>Mis Proyectos</li>
+                    </a>
+                    <a href="#aptitudes-id">
+                        <li>Mis Aptitudes</li>
+                    </a>
+                    <a href="#contacto-id">
+                        <li>Contacto</li>
+                    </a>
+
+                    <li class="rrss">
+                        <a href="https://github.com/lopezseloal" title="Mi GitHub"><i class="fa-brands fa-github fa-2x"></i></a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a href="https://www.linkedin.com/in/lopezseloal/" title="Mi LinkedIn"><i
+                                class="fa-brands fa-linkedin fa-2x"></i></a>
+                    </li>
+
+                    <hr>
+
+                    <button id="modo" onclick="myFunction()"><img id="modo-icono" src="Imagenes/luna.jpg" alt="Modo oscuro" title="Cambiar a modo oscuro"></button>
+                </ul>
+            </div>
+        </nav>
+        <!--FIN HAMBURGUESA-->
+
+        <video id="fondoPC" autoplay="autoplay" loop="loop" muted defaultMuted playsinline preload="auto"
+            poster="Imagenes/fondo.png">
+            <source src="https://dl.dropbox.com/s/gaxk1wapcchmf7n/fondoPC.mp4?dl=0" type="video/mp4">
+        </video>
+
+        <video id="fondoTablet" autoplay="autoplay" loop="loop" muted defaultMuted playsinline preload="auto"
+            poster="Imagenes/fondo.png">
+            <source src="https://dl.dropbox.com/s/exvocs9gzm8lktl/fondoPC.mp4?dl=0" type="video/mp4">
+        </video>
+
+        <video id="fondoMovil" autoplay="autoplay" loop="loop" muted defaultMuted playsinline preload="auto"
+            poster="Imagenes/fondoMovil.png">
+            <source src="https://dl.dropbox.com/s/hpmlcurk3onjfyg/fondoMobile.mp4?dl=0" type="video/mp4">
+        </video>
+
+        <div class="header-content">
+            <h1>¡BIENVENIDO!</h1>
+
+            <i>string nombre = <strong>"Sergio"</strong></i>
+            <br>
+
+            <i>string apellidos = <strong>"López Álvarez"</strong></i>
+
+            <br>
+
+            <i>int edad = <strong>21</strong></i>
+
+            <br>
+
+            <i>string ubicacion = <strong>"Gijón"</strong></i>
+
+            <br>
+
+            <i>string profesion = <strong>"Desarrollador Web"</strong></i>
+
+            <br><br>
+
+            <br><br><br>
+
+            <p>Apasionado por el diseño web, con amplios conocimientos en HTML5 y CSS3, así como nociones en lenguajes
+                como JavaScript, C# y JAVA. Trabajé con gestores de contenidos, como Wordpress, así como con frameworks,
+                BBDD y entornos como NodeJS,
+                .NET, Bootstrap, MySQL, MongoDB o Handlebars.
+
+                <br><br>
+
+                Tengo experiencia en edición de video, gestión de RRSS, SEO y redacción.
+            </p>
+
+
+            <div class="header-links">
+                <button><a href="https://github.com/lopezseloal" title="Accede a mi GitHub">GitHub</a></button>
+                <button><a href="https://www.linkedin.com/in/lopezseloal/"
+                        title="Accede a mi LinkedIn">LinkedIn</a></button>
+
+                <button><a href="https://www.dropbox.com/home?preview=LopezAlvarezSergio_WebCV.pdf"
+                        title="Descarga mi currículum">Currículum</a>
+                </button>
+            </div>
+
+
+            <i><strong>"La idea no es vivir para siempre, es crear algo que sí lo haga"</strong></i>
+            <br>
+            Andy Warhol
+
+        </div>
+
+    </div>
+
+
+    <div class="contenedor">
+        <div class="proyectos">
+            <h1 id="proyectos-id">MIS PROYECTOS</h1>
+            <ul class="card-list">
+                <li class="card">
+                    <a class="card-image" href="https://www.envista.es/" target="_blank"
+                        style="background-image: url(Imagenes/envista.jpg);" data-image-full="Imagenes/envista.jpg">
+                        <img src="Imagenes/envista.jpg" alt="Accede a la web de Envista" />
+                    </a>
+                    <a class="card-description" href="https://www.envista.es/" target="_blank">
+                        <h2>Envista (FCT)</h2>
+                        <p>Maquetación de la web, contenidos del blog, optimización del sitio y SEO</p>
+                        <strong>
+                            <p>Wordpress (Elementor, WP Bakery, Slider Revolution...)</p>
+                        </strong>
+                    </a>
+                </li>
+
+
+                <li class="card">
+                    <a class="card-image" href="https://tyca.academy/);" data-image-full="Imagenes/tyca.jpg">
+                        <img src="Imagenes/tyca.jpg" alt="Accede a la web de Tyca" />
+                    </a>
+                    <a class="card-description" href="https://tyca.academy/" target="_blank">
+                        <h2>Tyca Academy (FCT)</h2>
+                        <p>Maquetación de la web, tienda online y elaboración de cursos</p>
+                        <strong>
+                            <p>Wordpress (Elementor, WooCommerce, Learndash...)</p>
+                        </strong>
+                    </a>
+                </li>
+
+                <li class="card">
+                    <a class="card-image" href="https://github.com/lopezseloal/TFG-Web-2022"
+                        data-image-full="Imagenes/veraz.jpg">
+                        <img src="Imagenes/veraz.jpg" alt="Accede al código de mi proyecto" />
+                    </a>
+                    <a class="card-description" href="https://github.com/lopezseloal/TFG-Web-2022" target="_blank">
+                        <h2>TFG</h2>
+                        <p>Desarrollo y diseño de web y base de datos de un sitio de noticias</p>
+                        <strong>
+                            <p>NodeJS, Handlebars, MongoDB y Bootstrap</p>
+                        </strong>
+                    </a>
+
+                </li>
+            </ul>
+            <div class="video_tfg">
+                <br>
+                <h2>VIDEO DEL TFG EN EJECUCIÓN</h2>
+
+                <video controls>
+                    <source src="https://dl.dropbox.com/s/6rescb7wvtj9m32/VideoTFG.mp4?dl=0"
+                        frameborder="0" allow="accelerometer;encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen allow="autoplay">
+                </video>
+            </div>
+        </div>
+
+
+        <br><br>
+        <hr>
+
+        <div class="aptitudes">
+            <h1 id="aptitudes-id">MIS APTITUDES</h1>
+            <li class="card">
+                <a class="card-image" href="#" target="_blank" style="background-image: url(Imagenes/html.jpg);"
+                    data-image-full="Imagenes/html.jpg">
+                    <img src="Imagenes/html.jpg" alt="" />
+                </a>
+                <a class="card-description" href="https://github.com/lopezseloal/TFG-Web-2022" target="_blank">
+                    <h2>HTML5</h2>
+                    <p>Nivel: AVANZADO</p>
+                </a>
+            </li>
+
+            <li class="card">
+                <a class="card-image" href="#" target="_blank" style="background-image: url(Imagenes/css.jpg);"
+                    data-image-full="Imagenes/css.jpg">
+                    <img src="Imagenes/css.jpg" alt="" />
+                </a>
+                <a class="card-description" href="#" target="_blank">
+                    <h2>CSS3</h2>
+                    <p>Nivel: AVANZADO</p>
+                </a>
+            </li>
+
+            <li class="card">
+                <a class="card-image" href="#" target="_blank" style="background-image: url(Imagenes/js.jpg);"
+                    data-image-full="Imagenes/js.jpg">
+                    <img src="Imagenes/js.jpg" alt="" />
+                </a>
+                <a class="card-description" href="#" target="_blank">
+                    <h2>JavaScript</h2>
+                    <p>Nivel: INTERMEDIO</p>
+                </a>
+            </li>
+
+            <li class="card">
+                <a class="card-image" href="#" target="_blank" style="background-image: url(Imagenes/wp.jpg);"
+                    data-image-full="Imagenes/wp.jpg">
+                    <img src="Imagenes/wp.jpg" alt="" />
+                </a>
+                <a class="card-description" href="#" target="_blank">
+                    <h2>Wordpress</h2>
+                    <p>Nivel: INTERMEDIO</p>
+                </a>
+            </li>
+
+            <li class="card">
+                <a class="card-image" href="#" target="_blank" style="background-image: url(Imagenes/bootstrap.jpg);"
+                    data-image-full="Imagenes/bootstrap.jpg">
+                    <img src="Imagenes/bootstrap.jpg" alt="" />
+                </a>
+                <a class="card-description" href="#" target="_blank">
+                    <h2>Bootstrap</h2>
+                    <p>Nivel: INTERMEDIO</p>
+                </a>
+            </li>
+
+            <li class="card">
+                <a class="card-image" href="#" target="_blank" style="background-image: url(Imagenes/java.jpg);"
+                    data-image-full="Imagenes/java.jpg">
+                    <img src="Imagenes/java.jpg" alt="" />
+                </a>
+                <a class="card-description" href="#" target="_blank">
+                    <h2>JAVA</h2>
+                    <p>Nivel: BÁSICO</p>
+                </a>
+            </li>
+
+            <li class="card">
+                <a class="card-image" href="#" target="_blank" style="background-image: url(Imagenes/net.jpg);"
+                    data-image-full="Imagenes/net.jpg">
+                    <img src="Imagenes/net.jpg" alt="" />
+                </a>
+                <a class="card-description" href="#" target="_blank">
+                    <h2>.NET</h2>
+                    <p>Nivel: BÁSICO</p>
+                </a>
+            </li>
+
+            <li class="card">
+                <a class="card-image" href="#" target="_blank" style="background-image: url(Imagenes/node.jpg);"
+                    data-image-full="Imagenes/node.jpg">
+                    <img src="Imagenes/node.jpg" alt="" />
+                </a>
+                <a class="card-description" href="#" target="_blank">
+                    <h2>NodeJS</h2>
+                    <p>Nivel: BÁSICO</p>
+                </a>
+            </li>
+
+            <li class="card">
+                <a class="card-image" href="#" target="_blank" style="background-image: url(Imagenes/handlebars.png);"
+                    data-image-full="Imagenes/handlebars.png">
+                    <img src="Imagenes/handlebars.png" alt="" />
+                </a>
+                <a class="card-description" href="#" target="_blank">
+                    <h2>Handlebars</h2>
+                    <p>Nivel: BÁSICO</p>
+                </a>
+            </li>
+
+            <li class="card">
+                <a class="card-image" href="#" target="_blank" style="background-image: url(Imagenes/mysql.jpg);"
+                    data-image-full="Imagenes/mysql.jpg">
+                    <img src="Imagenes/mysql.jpg" alt="" />
+                </a>
+                <a class="card-description" href="#" target="_blank">
+                    <h2>MySQL</h2>
+                    <p>Nivel: BÁSICO</p>
+                </a>
+            </li>
+
+            <li class="card">
+                <a class="card-image" href="#" target="_blank" style="background-image: url(Imagenes/mongo.jpg);"
+                    data-image-full="Imagenes/mongo.jpg">
+                    <img src="Imagenes/mongo.jpg" alt="" />
+                </a>
+                <a class="card-description" href="#" target="_blank">
+                    <h2>MongoDB</h2>
+                    <p>Nivel: BÁSICO</p>
+                </a>
+            </li>
+
+        </div>
+
+        <br>
+
+        <hr>
+
+        <br><br>
+
+        <div class="form-contacto">
+
+        <form action="https://formsubmit.co/c43c6b968080e47a825fa8fd81d93de1" method="POST">
+
+
+            <h1 id="contacto-id">CONTACTO</h1>
+
+            <label for="nombre">Nombre y apellidos</label>
+            <input type="text" placeholder="Introduce tu nombre" name="name" minlength="1" required>
+
+            <br>
+
+            <label for="email">Correo electrónico</label>
+            <input type="email" placeholder="Introduce tu email" name="email" minlength="1" required>
+
+            <br>
+
+            <label for="asunto">Asunto</label>
+            <input type="text" placeholder="Introduce el asunto" name="asunto" minlength="1" required>
+
+            <br>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="40" rows="5" type="text" placeholder="Introduce el mensaje" name="mensaje" minlength="1"
+                required></textarea>
+
+            <br>
+
+            <input id="enviar" type="submit" value="ENVIAR">
+
+            <input type="hidden" name="_next" value="https://lopezseloal.github.io/">
+            <input type="hidden" name="_captcha" value="false">
+
+        </form>
+    </div>
+
+        <br>
+
+        <button class="btn-subir" id="btn_subir">
+            <i class="fa-solid fa-chevron-up fa-2x"></i>
+        </button>
+
+        <footer>
+            <hr>
+
+            <p>Este sitio web está aún en desarrollo (Actualizado 4 de Agosto 2022) - Sergio López Álvarez</p>
+        </footer>
+    </div>
+
+
+    <script>
+
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("modo-oscuro");
+
+  var icono = document.getElementById("modo-icono");
+  if(icono.src.match("Imagenes/luna.jpg")){
+    icono.src = "Imagenes/sol.png";
+    icono.title = "Cambiar a modo claro";
+  }
+
+  else{
+    icono.src = "Imagenes/luna.jpg";
+    icono.title = "Cambiar a modo oscuro";
+  }
+}
+
+        const btn_subir = document.getElementById("btn_subir")
+        btn_subir.addEventListener('click', () => {
+            window.scrollTo(0, 0)
+        })
+
+        window.onscroll = () => {
+            add_btn_subir()
+        }
+
+        const add_btn_subir = () => {
+            if (window.scrollY < 500) {
+                btn_subir.classList.remove("btn-subir-on")
+            }
+
+            else {
+                btn_subir.classList.add("btn-subir-on")
+            }
+        }
+
+
+    </script>
+
+
+
+</body>
+
+</html>
